@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Testi = () => {
 	return (
 		<section id="testimonial">
@@ -30,10 +32,15 @@ const Testi = () => {
 										</span>
 									</div>
 									<div className="de_testi_by">
-										<img
-											className="circle"
-											alt=""
-											src="images/testimonial/1.webp" />
+										<Image
+											src={"/images/testimonial/1.webp"}
+											width="0"
+											height="0"
+											sizes="100vw"
+											className="w-full h-auto circle"
+											alt="banner"
+											priority={true}
+										/>
 										<div>Michael S.</div>
 									</div>
 									<p>
@@ -58,10 +65,15 @@ const Testi = () => {
 										</span>
 									</div>
 									<div className="de_testi_by">
-										<img
-											className="circle"
-											alt=""
-											src="images/testimonial/2.webp" />
+										<Image
+											src={"/images/testimonial/2.webp"}
+											width="0"
+											height="0"
+											sizes="100vw"
+											className="w-full h-auto circle"
+											alt="banner"
+											priority={true}
+										/>
 										<div>Robert L.</div>
 									</div>
 									<p>
@@ -86,10 +98,15 @@ const Testi = () => {
 										</span>
 									</div>
 									<div className="de_testi_by">
-										<img
-											className="circle"
-											alt=""
-											src="images/testimonial/3.webp" />
+										<Image
+											src={"/images/testimonial/3.webp"}
+											width="0"
+											height="0"
+											sizes="100vw"
+											className="w-full h-auto circle"
+											alt="banner"
+											priority={true}
+										/>
 										<div>Jake M.</div>
 									</div>
 									<p>
@@ -114,10 +131,15 @@ const Testi = () => {
 										</span>
 									</div>
 									<div className="de_testi_by">
-										<img
-											className="circle"
-											alt=""
-											src="images/testimonial/4.webp" />
+										<Image
+											src={"/images/testimonial/4.webp"}
+											width="0"
+											height="0"
+											sizes="100vw"
+											className="w-full h-auto circle"
+											alt="banner"
+											priority={true}
+										/>
 										<div>Alex P.</div>
 									</div>
 									<p>
@@ -142,10 +164,15 @@ const Testi = () => {
 										</span>
 									</div>
 									<div className="de_testi_by">
-										<img
-											className="circle"
-											alt=""
-											src="images/testimonial/5.webp" />
+										<Image
+											src={"/images/testimonial/5.webp"}
+											width="0"
+											height="0"
+											sizes="100vw"
+											className="w-full h-auto circle"
+											alt="banner"
+											priority={true}
+										/>
 										<div>Carlos R.</div>
 									</div>
 									<p>
@@ -170,10 +197,15 @@ const Testi = () => {
 										</span>
 									</div>
 									<div className="de_testi_by">
-										<img
-											className="circle"
-											alt=""
-											src="images/testimonial/6.webp" />
+										<Image
+											src={"/images/testimonial/6.webp"}
+											width="0"
+											height="0"
+											sizes="100vw"
+											className="w-full h-auto circle"
+											alt="banner"
+											priority={true}
+										/>
 										<div>Edward B.</div>
 									</div>
 									<p>
@@ -198,10 +230,15 @@ const Testi = () => {
 										</span>
 									</div>
 									<div className="de_testi_by">
-										<img
-											className="circle"
-											alt=""
-											src="images/testimonial/7.webp" />
+										<Image
+											src={"/images/testimonial/7.webp"}
+											width="0"
+											height="0"
+											sizes="100vw"
+											className="w-full h-auto circle"
+											alt="banner"
+											priority={true}
+										/>
 										<div>Daniel H.</div>
 									</div>
 									<p>
@@ -226,10 +263,15 @@ const Testi = () => {
 										</span>
 									</div>
 									<div className="de_testi_by">
-										<img
-											className="circle"
-											alt=""
-											src="images/testimonial/8.webp" />
+										<Image
+											src={"/images/testimonial/8.webp"}
+											width="0"
+											height="0"
+											sizes="100vw"
+											className="w-full h-auto circle"
+											alt="banner"
+											priority={true}
+										/>
 										<div>Bryan G.</div>
 									</div>
 									<p>
@@ -246,5 +288,10 @@ const Testi = () => {
 		</section>
 	);
 }
+
+export async function getServerSideProps() {
+	return { props: {}, };
+}
+
 
 export default Testi;

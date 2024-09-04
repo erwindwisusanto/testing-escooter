@@ -82,4 +82,9 @@ const HowToRent = () => {
   );
 };
 
+export async function getServerSideProps() {
+	return { props: {}, };
+}
+
+
 export default HowToRent;

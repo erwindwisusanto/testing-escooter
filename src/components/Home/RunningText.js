@@ -1,10 +1,16 @@
+import Image from "next/image";
+
 const RunningText = () => {
   return (
     <section className="jarallax text-light pt30 pb30">
-      <img
-        src="images/background/gradient-3.webp"
+      <Image
+        src={`/images/background/gradient-3.webp`}
         className="jarallax-img"
-        alt="" />
+        alt="jaralax"
+        width="0"
+        height="0"
+        sizes="100vw"
+      />
       <div className="wow fadeInRight d-flex">
         <div className="de-marquee-list wow">
           <div className="d-item">
@@ -34,5 +40,10 @@ const RunningText = () => {
     </section>
   );
 }
+
+export async function getServerSideProps() {
+	return { props: {}, };
+}
+
 
 export default RunningText;

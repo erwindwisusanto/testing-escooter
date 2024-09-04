@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Escooter = () => {
 	return (
 		<section id="variant">
@@ -24,10 +26,14 @@ const Escooter = () => {
 								className="bg-grey p-4 rounded-20px relative hover text-center"
 								style={{ backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
 								<a href="##">
-									<img
-										src="images/misc/escooter01.png"
+									<Image
+										src={`/images/scooter/escooter01.webp`}
 										className="w-100 relative z-1000 hover-scale-1-2"
-										alt="" />
+										alt="escooter01"
+										height={500}
+										width={500}
+										priority={true}
+									/>
 									<img
 										src="images/misc/10.webp"
 										className="absolute start-10 top-10 w-20"
@@ -115,10 +121,14 @@ const Escooter = () => {
 								className="bg-grey p-4 rounded-20px relative hover text-center"
 								style={{ backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
 								<a href="##">
-									<img
-										src="images/misc/escooter02.png"
+									<Image
+										src={`/images/scooter/escooter02.webp`}
 										className="w-100 relative z-1000 hover-scale-1-2"
-										alt="" />
+										alt="escooter01"
+										height={500}
+										width={500}
+										priority={true}
+									/>
 									<img
 										src="images/misc/10.webp"
 										className="absolute start-10 top-10 w-20"
@@ -205,10 +215,14 @@ const Escooter = () => {
 								className="bg-grey p-4 rounded-20px relative hover text-center"
 								style={{ backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
 								<a href="##">
-									<img
-										src="images/misc/escooter03.png"
+									<Image
+										src={`/images/scooter/escooter03.webp`}
 										className="w-100 relative z-1000 hover-scale-1-2"
-										alt="" />
+										alt="escooter01"
+										height={500}
+										width={500}
+										priority={true}
+									/>
 									<img
 										src="images/misc/10.webp"
 										className="absolute start-10 top-10 w-20"
@@ -294,10 +308,14 @@ const Escooter = () => {
 								className="bg-grey p-4 rounded-20px relative hover text-center"
 								style={{ backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
 								<a href="##">
-									<img
-										src="images/misc/escooter04.png"
+									<Image
+										src={`/images/scooter/escooter04.webp`}
 										className="w-100 relative z-1000 hover-scale-1-2"
-										alt="" />
+										alt="escooter01"
+										height={500}
+										width={500}
+										priority={true}
+									/>
 									<img
 										src="images/misc/10.webp"
 										className="absolute start-10 top-10 w-20"
@@ -383,10 +401,14 @@ const Escooter = () => {
 								className="bg-grey p-4 rounded-20px relative hover text-center"
 								style={{ backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
 								<a href="##">
-									<img
-										src="images/misc/escooter05.png"
+									<Image
+										src={`/images/scooter/escooter05.webp`}
 										className="w-100 relative z-1000 hover-scale-1-2"
-										alt="" />
+										alt="escooter01"
+										height={500}
+										width={500}
+										priority={true}
+									/>
 									<img
 										src="images/misc/10.webp"
 										className="absolute start-10 top-10 w-20"
@@ -473,10 +495,14 @@ const Escooter = () => {
 								className="bg-grey p-4 rounded-20px relative hover text-center"
 								style={{ backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
 								<a href="##">
-									<img
-										src="images/misc/escooter06.png"
+									<Image
+										src={`/images/scooter/escooter06.webp`}
 										className="w-100 relative z-1000 hover-scale-1-2"
-										alt="" />
+										alt="escooter01"
+										height={500}
+										width={500}
+										priority={true}
+									/>
 									<img
 										src="images/misc/10.webp"
 										className="absolute start-10 top-10 w-20"
@@ -558,5 +584,10 @@ const Escooter = () => {
 		</section>
 	);
 }
+
+export async function getServerSideProps() {
+	return { props: {}, };
+}
+
 
 export default Escooter;

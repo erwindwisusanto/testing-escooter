@@ -1,10 +1,16 @@
+import Image from "next/image";
+
 const Welcome = () => {
 	return (
 		<section className="relative overflow-hidden mh-500px jarallax">
-			<img
-				src="images/background/gradient-1.webp"
+			<Image
+				src={`/images/background/gradient-1.webp`}
 				className="jarallax-img"
-				alt="" />
+				alt="escooter"
+				priority={true}
+				fill={true}
+				style={{ objectFit: 'cover' }}
+			/>
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-6 offset-lg-6">
@@ -27,6 +33,10 @@ const Welcome = () => {
 				data-bgimage="url('images/misc/bali-img.webp')"></div>
 		</section>
 	);
+}
+
+export async function getServerSideProps() {
+	return { props: {}, };
 }
 
 export default Welcome;
