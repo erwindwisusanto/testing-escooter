@@ -6,7 +6,7 @@ const Testi = () => {
 					<div className="col-lg-12">
 						<div className="subtitle wow fadeInUp mb-3">Testimonials</div>
 						<h2 className="wow fadeInUp" data-wow-delay=".2s">
-							Our Happy Customers
+							Our Happy Customerss
 						</h2>
 						<div className="spacer-single"></div>
 					</div>
