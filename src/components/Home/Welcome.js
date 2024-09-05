@@ -4,13 +4,15 @@ const Welcome = () => {
 	return (
 		<section className="relative overflow-hidden mh-500px jarallax">
 			<Image
-				src={`/images/background/gradient-1.webp`}
-				className="jarallax-img"
+        src={`/images/background/gradient-1.webp`}
+        className="jarallax-img z-0"
+        width="0"
+        height="0"
+        sizes="40vw"
 				alt="escooter"
 				style={{ objectFit: 'cover' }}
-				fill={true}
 				priority={true}
-			/>
+      />
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-6 offset-lg-6">
