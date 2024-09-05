@@ -7,9 +7,9 @@ import SectionFirst from "@/components/Home/SectionFirst";
 import Testi from "@/components/Home/Testi";
 import Welcome from "@/components/Home/Welcome";
 
-export default function Home() {
+const Home = () => {
   return (
-    <main>
+    <>
       <div id="wrapper">
         <Header />
         <div
@@ -25,6 +25,12 @@ export default function Home() {
         </div>
         <Footer />
       </div>
-    </main>
+    </>
   );
 }
+
+export async function getServerSideProps() {
+  return { props: {} };
+}
+
+export default Home;
