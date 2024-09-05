@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Header = () => {
 	return (
 		<header
@@ -10,9 +12,27 @@ const Header = () => {
 							<div className="de-flex-col">
 								<div id="logo">
 									<a href="">
-										<img className="logo-main" src="images/logo.png" alt="" />
-										<img className="logo-scroll" src="images/logo.png" alt="" />
-										<img className="logo-mobile" src="images/logo.png" alt="" />
+										<Image
+											className="logo-main"
+											src="/images/logo.png"
+											alt="Main Logo"
+											width={150}
+											height={100}
+										/>
+										<Image
+											className="logo-scroll"
+											src="/images/logo.png"
+											alt="Scroll Logo"
+											width={150}
+											height={100}
+										/>
+										<Image
+											className="logo-mobile"
+											src="/images/logo.png"
+											alt="Mobile Logo"
+											width={150}
+											height={100}
+										/>
 									</a>
 								</div>
 							</div>
@@ -46,6 +66,10 @@ const Header = () => {
 			</div>
 		</header>
 	);
+}
+
+export async function getServerSideProps() {
+	return { props: {}, };
 }
 
 export default Header;

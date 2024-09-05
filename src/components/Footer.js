@@ -1,10 +1,17 @@
+import Image from "next/image";
+
 const Footer = () => {
 	return (
 		<footer className="section-dark">
 			<div className="container">
 				<div className="row gx-5">
 					<div className="col-lg-8 col-sm-6">
-						<img src="images/logo-white.png" alt="" />
+						<Image
+							src="/images/logo-white.png"
+							alt="Logo"
+							width={150}
+							height={150} 
+						/>
 						<div className="spacer-20"></div>
 						<p>
 							Welcome to eScooter, your premier destination for high-quality
@@ -60,6 +67,10 @@ const Footer = () => {
 			</div>
 		</footer>
 	);
+}
+
+export async function getServerSideProps() {
+	return { props: {}, };
 }
 
 export default Footer;

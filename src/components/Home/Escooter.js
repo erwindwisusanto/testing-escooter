@@ -34,10 +34,13 @@ const Escooter = () => {
 										width={500}
 										priority={true}
 									/>
-									<img
-										src="images/misc/10.webp"
-										className="absolute start-10 top-10 w-20"
-										alt="" />
+									<Image
+										src="/images/misc/10.webp"
+										alt="escooter"
+										width={80}
+										height={80}
+										className="absolute left-10 top-10"
+									/>
 								</a>
 
 								<div
@@ -129,10 +132,13 @@ const Escooter = () => {
 										width={500}
 										priority={true}
 									/>
-									<img
-										src="images/misc/10.webp"
-										className="absolute start-10 top-10 w-20"
-										alt="" />
+									<Image
+										src="/images/misc/10.webp"
+										alt="escooter"
+										width={80}
+										height={80}
+										className="absolute left-10 top-10"
+									/>
 								</a>
 
 								<div
@@ -223,10 +229,13 @@ const Escooter = () => {
 										width={500}
 										priority={true}
 									/>
-									<img
-										src="images/misc/10.webp"
-										className="absolute start-10 top-10 w-20"
-										alt="" />
+									<Image
+										src="/images/misc/10.webp"
+										alt="escooter"
+										width={80}
+										height={80}
+										className="absolute left-10 top-10"
+									/>
 								</a>
 
 								<div
@@ -316,10 +325,13 @@ const Escooter = () => {
 										width={500}
 										priority={true}
 									/>
-									<img
-										src="images/misc/10.webp"
-										className="absolute start-10 top-10 w-20"
-										alt="" />
+									<Image
+										src="/images/misc/10.webp"
+										alt="escooter"
+										width={80}
+										height={80}
+										className="absolute left-10 top-10"
+									/>
 								</a>
 
 								<div
@@ -409,10 +421,13 @@ const Escooter = () => {
 										width={500}
 										priority={true}
 									/>
-									<img
-										src="images/misc/10.webp"
-										className="absolute start-10 top-10 w-20"
-										alt="" />
+									<Image
+										src="/images/misc/10.webp"
+										alt="escooter"
+										width={80}
+										height={80}
+										className="absolute left-10 top-10"
+									/>
 								</a>
 
 								<div
@@ -503,10 +518,13 @@ const Escooter = () => {
 										width={500}
 										priority={true}
 									/>
-									<img
-										src="images/misc/10.webp"
-										className="absolute start-10 top-10 w-20"
-										alt="" />
+									<Image
+										src="/images/misc/10.webp"
+										alt="escooter"
+										width={80}
+										height={80}
+										className="absolute left-10 top-10"
+									/>
 								</a>
 
 								<div
