@@ -9,8 +9,10 @@ const Footer = () => {
 						<Image
 							src="/images/logo-white.png"
 							alt="Logo"
-							width={150}
-							height={150} 
+							width="0"
+							height="0"
+							sizes="100vw"
+							className="w-25 h-auto"
 						/>
 						<div className="spacer-20"></div>
 						<p>

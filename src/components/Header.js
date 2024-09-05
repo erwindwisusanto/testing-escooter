@@ -13,25 +13,28 @@ const Header = () => {
 								<div id="logo">
 									<a href="">
 										<Image
-											className="logo-main"
-											src="/images/logo.png"
-											alt="Main Logo"
-											width={150}
-											height={100}
+											src={"/images/logo.png"}
+											width="0"
+											height="0"
+											sizes="100vw"
+											className="logo-main w-100 h-auto"
+											alt="banner"
 										/>
 										<Image
-											className="logo-scroll"
-											src="/images/logo.png"
-											alt="Scroll Logo"
-											width={150}
-											height={100}
+											src={"/images/logo.png"}
+											width="0"
+											height="0"
+											sizes="100vw"
+											className="logo-scroll w-100 h-auto"
+											alt="banner"
 										/>
 										<Image
-											className="logo-mobile"
-											src="/images/logo.png"
-											alt="Mobile Logo"
-											width={150}
-											height={100}
+											src={"/images/logo.png"}
+											width="0"
+											height="0"
+											sizes="100vw"
+											className="logo-mobile w-100 h-auto"
+											alt="banner"
 										/>
 									</a>
 								</div>

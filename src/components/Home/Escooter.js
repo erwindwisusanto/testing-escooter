@@ -28,18 +28,21 @@ const Escooter = () => {
 								<a href="##">
 									<Image
 										src={`/images/scooter/escooter01.webp`}
-										className="w-100 relative z-1000 hover-scale-1-2"
+										className="w-100 relative z-1000 hover-scale-1-2 h-auto"
 										alt="escooter01"
-										height={500}
-										width={500}
+										width="0"
+										height="0"
+										sizes="100vw"
 										priority={true}
 									/>
 									<Image
-										src="/images/misc/10.webp"
-										alt="escooter"
-										width={80}
-										height={80}
-										className="absolute left-10 top-10"
+										src={"/images/misc/10.webp"}
+										className="w-20 h-auto absolute start-10 top-10"
+										alt="" 
+										width="0"
+										height="0"
+										sizes="100vw"
+										priority={true}
 									/>
 								</a>
 
@@ -126,18 +129,21 @@ const Escooter = () => {
 								<a href="##">
 									<Image
 										src={`/images/scooter/escooter02.webp`}
-										className="w-100 relative z-1000 hover-scale-1-2"
+										className="w-100 relative z-1000 hover-scale-1-2 h-auto"
 										alt="escooter01"
-										height={500}
-										width={500}
+										width="0"
+										height="0"
+										sizes="100vw"
 										priority={true}
 									/>
 									<Image
-										src="/images/misc/10.webp"
-										alt="escooter"
-										width={80}
-										height={80}
-										className="absolute left-10 top-10"
+										src={"/images/misc/10.webp"}
+										className="w-20 h-auto absolute start-10 top-10"
+										alt="" 
+										width="0"
+										height="0"
+										sizes="100vw"
+										priority={true}
 									/>
 								</a>
 
@@ -223,18 +229,21 @@ const Escooter = () => {
 								<a href="##">
 									<Image
 										src={`/images/scooter/escooter03.webp`}
-										className="w-100 relative z-1000 hover-scale-1-2"
+										className="w-100 relative z-1000 hover-scale-1-2 h-auto"
 										alt="escooter01"
-										height={500}
-										width={500}
+										width="0"
+										height="0"
+										sizes="100vw"
 										priority={true}
 									/>
 									<Image
-										src="/images/misc/10.webp"
-										alt="escooter"
-										width={80}
-										height={80}
-										className="absolute left-10 top-10"
+										src={"/images/misc/10.webp"}
+										className="w-20 h-auto absolute start-10 top-10"
+										alt="" 
+										width="0"
+										height="0"
+										sizes="100vw"
+										priority={true}
 									/>
 								</a>
 
@@ -319,18 +328,21 @@ const Escooter = () => {
 								<a href="##">
 									<Image
 										src={`/images/scooter/escooter04.webp`}
-										className="w-100 relative z-1000 hover-scale-1-2"
+										className="w-100 relative z-1000 hover-scale-1-2 h-auto"
 										alt="escooter01"
-										height={500}
-										width={500}
+										width="0"
+										height="0"
+										sizes="100vw"
 										priority={true}
 									/>
 									<Image
-										src="/images/misc/10.webp"
-										alt="escooter"
-										width={80}
-										height={80}
-										className="absolute left-10 top-10"
+										src={"/images/misc/10.webp"}
+										className="w-20 h-auto absolute start-10 top-10"
+										alt="" 
+										width="0"
+										height="0"
+										sizes="100vw"
+										priority={true}
 									/>
 								</a>
 
@@ -415,18 +427,21 @@ const Escooter = () => {
 								<a href="##">
 									<Image
 										src={`/images/scooter/escooter05.webp`}
-										className="w-100 relative z-1000 hover-scale-1-2"
+										className="w-100 relative z-1000 hover-scale-1-2 h-auto"
 										alt="escooter01"
-										height={500}
-										width={500}
+										width="0"
+										height="0"
+										sizes="100vw"
 										priority={true}
 									/>
 									<Image
-										src="/images/misc/10.webp"
-										alt="escooter"
-										width={80}
-										height={80}
-										className="absolute left-10 top-10"
+										src={"/images/misc/10.webp"}
+										className="w-20 h-auto absolute start-10 top-10"
+										alt="" 
+										width="0"
+										height="0"
+										sizes="100vw"
+										priority={true}
 									/>
 								</a>
 
@@ -512,18 +527,21 @@ const Escooter = () => {
 								<a href="##">
 									<Image
 										src={`/images/scooter/escooter06.webp`}
-										className="w-100 relative z-1000 hover-scale-1-2"
+										className="w-100 relative z-1000 hover-scale-1-2 h-auto"
 										alt="escooter01"
-										height={500}
-										width={500}
+										width="0"
+										height="0"
+										sizes="100vw"
 										priority={true}
 									/>
 									<Image
-										src="/images/misc/10.webp"
-										alt="escooter"
-										width={80}
-										height={80}
-										className="absolute left-10 top-10"
+										src={"/images/misc/10.webp"}
+										className="w-20 h-auto absolute start-10 top-10"
+										alt="" 
+										width="0"
+										height="0"
+										sizes="100vw"
+										priority={true}
 									/>
 								</a>
 
