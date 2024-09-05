@@ -11,7 +11,7 @@ const Footer = () => {
 							alt="Logo"
 							width="0"
 							height="0"
-							sizes="100vw"
+							sizes="25vw"
 							className="w-25 h-auto"
 						/>
 						<div className="spacer-20"></div>

@@ -32,16 +32,16 @@ const Escooter = () => {
 										alt="escooter01"
 										width="0"
 										height="0"
-										sizes="100vw"
+										sizes="25vw"
 										priority={true}
 									/>
 									<Image
 										src={"/images/misc/10.webp"}
 										className="w-20 h-auto absolute start-10 top-10"
-										alt="" 
+										alt="escooter" 
 										width="0"
 										height="0"
-										sizes="100vw"
+										sizes="25vw"
 										priority={true}
 									/>
 								</a>
@@ -133,16 +133,16 @@ const Escooter = () => {
 										alt="escooter01"
 										width="0"
 										height="0"
-										sizes="100vw"
+										sizes="25vw"
 										priority={true}
 									/>
 									<Image
 										src={"/images/misc/10.webp"}
 										className="w-20 h-auto absolute start-10 top-10"
-										alt="" 
+										alt="escooter" 
 										width="0"
 										height="0"
-										sizes="100vw"
+										sizes="25vw"
 										priority={true}
 									/>
 								</a>
@@ -233,16 +233,16 @@ const Escooter = () => {
 										alt="escooter01"
 										width="0"
 										height="0"
-										sizes="100vw"
+										sizes="25vw"
 										priority={true}
 									/>
 									<Image
 										src={"/images/misc/10.webp"}
 										className="w-20 h-auto absolute start-10 top-10"
-										alt="" 
+										alt="escooter" 
 										width="0"
 										height="0"
-										sizes="100vw"
+										sizes="25vw"
 										priority={true}
 									/>
 								</a>
@@ -332,16 +332,16 @@ const Escooter = () => {
 										alt="escooter01"
 										width="0"
 										height="0"
-										sizes="100vw"
+										sizes="25vw"
 										priority={true}
 									/>
 									<Image
 										src={"/images/misc/10.webp"}
 										className="w-20 h-auto absolute start-10 top-10"
-										alt="" 
+										alt="escooter" 
 										width="0"
 										height="0"
-										sizes="100vw"
+										sizes="25vw"
 										priority={true}
 									/>
 								</a>
@@ -431,16 +431,16 @@ const Escooter = () => {
 										alt="escooter01"
 										width="0"
 										height="0"
-										sizes="100vw"
+										sizes="25vw"
 										priority={true}
 									/>
 									<Image
 										src={"/images/misc/10.webp"}
 										className="w-20 h-auto absolute start-10 top-10"
-										alt="" 
+										alt="escooter" 
 										width="0"
 										height="0"
-										sizes="100vw"
+										sizes="25vw"
 										priority={true}
 									/>
 								</a>
@@ -531,16 +531,16 @@ const Escooter = () => {
 										alt="escooter01"
 										width="0"
 										height="0"
-										sizes="100vw"
+										sizes="25vw"
 										priority={true}
 									/>
 									<Image
 										src={"/images/misc/10.webp"}
 										className="w-20 h-auto absolute start-10 top-10"
-										alt="" 
+										alt="escooter" 
 										width="0"
 										height="0"
-										sizes="100vw"
+										sizes="25vw"
 										priority={true}
 									/>
 								</a>

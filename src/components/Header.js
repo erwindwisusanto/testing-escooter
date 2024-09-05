@@ -16,7 +16,7 @@ const Header = () => {
 											src={"/images/logo.png"}
 											width="0"
 											height="0"
-											sizes="100vw"
+											sizes="25vw"
 											className="logo-main w-100 h-auto"
 											alt="banner"
 										/>
@@ -24,7 +24,7 @@ const Header = () => {
 											src={"/images/logo.png"}
 											width="0"
 											height="0"
-											sizes="100vw"
+											sizes="25vw"
 											className="logo-scroll w-100 h-auto"
 											alt="banner"
 										/>
@@ -32,7 +32,7 @@ const Header = () => {
 											src={"/images/logo.png"}
 											width="0"
 											height="0"
-											sizes="100vw"
+											sizes="25vw"
 											className="logo-mobile w-100 h-auto"
 											alt="banner"
 										/>

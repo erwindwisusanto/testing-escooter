@@ -6,11 +6,11 @@ const SectionFirst = () => {
     <section className="jarallax" style={{ position: 'relative' }}>
       <Image
         src={`/images/background/gradient-1.webp`}
-        className="jarallax-img"
-        alt="banner"
-        style={{ objectFit: 'cover' }}
-        fill={true}
-        priority={true}
+        className="jarallax-img z-0"
+        fill
+				alt="banner"
+				priority={true}
+				style={{ objectFit: 'cover' }}
       />
       <div className="container">
         <div className="row g-4 gx-5 align-items-center">

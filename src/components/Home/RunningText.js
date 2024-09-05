@@ -9,7 +9,7 @@ const RunningText = () => {
         alt="jaralax"
         width="0"
         height="0"
-        sizes="100vw"
+        sizes="25vw"
       />
       <div className="wow fadeInRight d-flex">
         <div className="de-marquee-list wow">

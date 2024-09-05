@@ -36,7 +36,7 @@ const Testi = () => {
 											src={"/images/testimonial/1.webp"}
 											width="0"
 											height="0"
-											sizes="100vw"
+											sizes="25vw"
 											className="w-full h-auto circle"
 											alt="banner"
 											priority={true}
@@ -69,7 +69,7 @@ const Testi = () => {
 											src={"/images/testimonial/2.webp"}
 											width="0"
 											height="0"
-											sizes="100vw"
+											sizes="25vw"
 											className="w-full h-auto circle"
 											alt="banner"
 											priority={true}
@@ -102,7 +102,7 @@ const Testi = () => {
 											src={"/images/testimonial/3.webp"}
 											width="0"
 											height="0"
-											sizes="100vw"
+											sizes="25vw"
 											className="w-full h-auto circle"
 											alt="banner"
 											priority={true}
@@ -135,7 +135,7 @@ const Testi = () => {
 											src={"/images/testimonial/4.webp"}
 											width="0"
 											height="0"
-											sizes="100vw"
+											sizes="25vw"
 											className="w-full h-auto circle"
 											alt="banner"
 											priority={true}
@@ -168,7 +168,7 @@ const Testi = () => {
 											src={"/images/testimonial/5.webp"}
 											width="0"
 											height="0"
-											sizes="100vw"
+											sizes="25vw"
 											className="w-full h-auto circle"
 											alt="banner"
 											priority={true}
@@ -201,7 +201,7 @@ const Testi = () => {
 											src={"/images/testimonial/6.webp"}
 											width="0"
 											height="0"
-											sizes="100vw"
+											sizes="25vw"
 											className="w-full h-auto circle"
 											alt="banner"
 											priority={true}
@@ -234,7 +234,7 @@ const Testi = () => {
 											src={"/images/testimonial/7.webp"}
 											width="0"
 											height="0"
-											sizes="100vw"
+											sizes="25vw"
 											className="w-full h-auto circle"
 											alt="banner"
 											priority={true}
@@ -267,7 +267,7 @@ const Testi = () => {
 											src={"/images/testimonial/8.webp"}
 											width="0"
 											height="0"
-											sizes="100vw"
+											sizes="25vw"
 											className="w-full h-auto circle"
 											alt="banner"
 											priority={true}
