@@ -7,9 +7,9 @@ const Welcome = () => {
 				src={`/images/background/gradient-1.webp`}
 				className="jarallax-img"
 				alt="escooter"
-				priority={true}
-				fill={true}
 				style={{ objectFit: 'cover' }}
+				fill={true}
+				priority={true}
 			/>
 			<div className="container">
 				<div className="row">

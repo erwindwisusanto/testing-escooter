@@ -4,7 +4,6 @@ import Link from "next/link";
 const SectionFirst = () => {
   return (
     <section className="jarallax" style={{ position: 'relative' }}>
-      {/* Fix for "fill" warning: Ensure parent has a relative or other valid position */}
       <Image
         src={`/images/background/gradient-1.webp`}
         className="jarallax-img"
@@ -18,7 +17,6 @@ const SectionFirst = () => {
           <div className="spacer-single d-lg-none d-sm-block"></div>
           <div className="col-lg-6">
             <div className="relative">
-              {/* Fix for the aspect ratio warning */}
               <Image
                 src={`/images/misc/4.webp`}
                 className="img-fluid relative z-index-1 rounded-20px wow fadeInUp"
@@ -26,7 +24,7 @@ const SectionFirst = () => {
                 width={500}
                 height={300}
                 priority={true}
-                style={{ width: '100%', height: 'auto' }} // Ensure proper aspect ratio
+                style={{ width: '100%', height: 'auto' }}
               />
             </div>
           </div>

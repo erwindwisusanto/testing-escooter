@@ -4,6 +4,7 @@ import "@/styles/plugins.css";
 import "@/styles/swiper.css";
 import "@/styles/style.css";
 import "@/styles/coloring.css";
+import "@/styles/colors/scheme-01.css";
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />;
